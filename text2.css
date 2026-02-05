@@ -1,0 +1,17 @@
+/* text2 */
+
+.main-box1 {
+    display: inline-block;
+    vertical-align: top;
+    background: black;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.main-box1 > p {
+    font-size: 20px;
+    color: white;
+    font-family: "brush-script-mt";
+
+}

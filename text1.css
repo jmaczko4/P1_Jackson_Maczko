@@ -1,0 +1,120 @@
+/* text1 */
+{
+    box-sizing: border-box;
+}
+ body {
+    margin: 0;
+ }
+.container {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background: black;
+    height: 100vh;
+    gap: 10px;
+}
+
+.top { 
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+height: 20%;
+gap: 10px;
+}
+
+.bottom { 
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+height: 100%;
+color: black;
+background: black;
+gap: 10px;
+}
+.top-item-right {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 76, 84);
+    justify-content: center;
+    align-items: center;
+}
+
+
+.top-item-left {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 76, 84);
+    justify-content: center;
+    align-items: center;
+}
+
+.top-item-right >p {
+    padding: 5px;
+    color: white;
+    font-family: Frutiger;
+    font-size: 15px;
+
+}
+.top-item-left >p {
+    padding: 5px;
+    color: white;
+    font-family: Frutiger;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+
+.bottom-item {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: black;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+
+}
+
+.bottom-item >p {
+    padding: 25px;
+    color: black;
+    font-family: Frutiger;
+    font-size: 15px;
+
+}
+
+.picbox {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: grey;
+    align-items: center; 
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.quotebox {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: grey;
+    align-items: center; 
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.picbox > p {
+    padding: 25px;
+    color: black;
+    font-family: Frutiger;
+    font-size: 12px;
+}
+.bottom-item:hover {
+    background: white;
+    color: black;
+}
