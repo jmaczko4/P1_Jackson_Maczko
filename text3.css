@@ -4,14 +4,14 @@
 }
  body {
     margin: 0;
+    background: pink;
  }
 .container {
     padding: 10px;
     display: flex;
     flex-direction: column;
-    background: pink;
-    height: 100vh;
     gap: 10px;
+    height: 100vh;
 }
 
 .top { 
@@ -24,13 +24,10 @@ gap: 10px;
 
 .bottom { 
 display: flex;
-flex-direction: row;
-justify-content: space-between;
-height: 33%;
-color: white;
-background: pink;
 gap: 10px;
+flex: 1;
 }
+
 .top-item-right {
     display: flex;
     width: 100%;
@@ -68,13 +65,19 @@ gap: 10px;
 
 
 .bottom-item {
-    display: flex;
-    width: 100%;
+    flex: 1;
     height: 100%;
-    background: black;
+    display: flex;
     justify-content: center;
     align-items: center;
-
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-family: Frutiger, sans-serif;
+    font-size: clamp(10px, 1.5vw, 16px);
+    border: 5px solid white;
+    
 }
 
 .bottom-item >p {
@@ -116,4 +119,11 @@ gap: 10px;
 .bottom-item:hover {
     background: white;
     color: black;
+}
+.link,
+.link:visited,
+.link:hover,
+.link:active {
+    color: inherit;
+    font-size: inherit;
 }

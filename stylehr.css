@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("images/npbg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    min-height: 100vh; 
+    color:#fff;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 15px;
+    border: 2px solid white;
+    box-sizing: border-box;
+    background: black;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+    
+    
+
+}
+
+.n-line {
+    font-family: 'Lucida Console', monospace;
+    font-size: .6rem;
+    white-space: nowrap;
+    color: white;
+
+
+    animation: bounce 4s ease-in-out infinite alternate;
+}
+  /* was scrollSide before bounce */
+
+
+@keyframes bounce {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(30%);
+    }
+}
+
+.wrap {
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link {
+    color: white;
+}
+.link:hover {
+    color: #ccc;
+}
+.link:visited {
+    color:white;
+}

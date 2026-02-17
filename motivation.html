@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Motivation Poem Poster</title>
+<link rel="stylesheet" href="stylem.css">
+</head>
+
+<body>
+
+<div class="poster">
+
+<svg viewBox="0 0 800 800">
+
+    <!-- CENTER IMAGE -->
+    <image href="images/center.png"
+           x="250" y="120"
+           width="300" height="400" />
+
+    <!-- LEFT CURVE PATH -->
+    <defs>
+        <path id="leftCurve"
+              d="M150 120 Q40 400 150 680" />
+
+        <path id="rightCurve"
+              d="M650 120 Q760 400 650 680" />
+
+        <path id="bottomCurve"
+              d="M200 720 Q400 780 600 720" />
+    </defs>
+
+    <!-- LEFT POEM -->
+    <text class="poem">
+        <textPath href="#leftCurve">
+        you fall but you learn you break but you grow
+        the dark is only a doorway to the next version of you
+        </textPath>
+    </text>
+
+    <!-- RIGHT POEM -->
+    <text class="poem">
+        <textPath href="#rightCurve">
+        keep moving forward even when the path feels heavy
+        strength is quiet and progress is slow but real
+        </textPath>
+    </text>
+
+    <!-- BOTTOM POEM -->
+    <text class="poem">
+        <textPath href="#bottomCurve">
+        become the person you needed when you first began
+        </textPath>
+    </text>
+
+</svg>
+
+</div>
+
+</body>
+</html>

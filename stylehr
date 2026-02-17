@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+  color: white;
+  font-family: 'Dancing Script', cursive;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5vw;
+  overflow-x: hidden;
+}
+
+/* Optional subtle texture overlay */
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: url("images/paper-texture.jpg");
+  opacity: 0.05;
+  pointer-events: none;
+}
+
+.content {
+  max-width: 900px;
+  font-size: clamp(1.2rem, 2.5vw, 2.2rem);
+  line-height: 1.8;
+  letter-spacing: 1px;
+}
+
+.content p {
+  margin-bottom: 3rem;
+  opacity: 0.9;
+}
