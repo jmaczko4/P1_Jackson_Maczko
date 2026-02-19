@@ -5,7 +5,13 @@
  body {
     margin: 0;
     background: pink;
+    font-family: 'Creepy-Circus';
  }
+
+@font-face {
+    font-family: 'Creepy-Circus';
+    src: url('fonts/Creepy-Circus.ttf');
+}
 .container {
     padding: 10px;
     display: flex;
@@ -50,14 +56,14 @@ flex: 1;
 .top-item-right >p {
     padding: 5px;
     color: white;
-    font-family: Frutiger;
-    font-size: 15px;
+    font-family: 'Creepy-Circus';
+    font-size: 25px;
 
 }
 .top-item-left >p {
     padding: 5px;
     color: white;
-    font-family: Frutiger;
+    font-family: 'Creepy-Circus';
     font-size: 25px;
     font-weight: bold;
 
@@ -73,9 +79,9 @@ flex: 1;
     background: black;
     color: white;
     text-align: center;
-    padding: 15px;
-    font-family: Frutiger, sans-serif;
-    font-size: clamp(10px, 1.5vw, 16px);
+    padding: 25px;
+    font-family: 'Creepy-Circus', sans-serif;
+    font-size: clamp(15px, 2.0vw, 22px);
     border: 5px solid white;
     
 }
@@ -83,8 +89,8 @@ flex: 1;
 .bottom-item >p {
     padding: 25px;
     color: black;
-    font-family: Frutiger;
-    font-size: 15px;
+    font-family: 'Creepy-Circus';
+    font-size: 25px;
 
 }
 
@@ -113,8 +119,8 @@ flex: 1;
 .picbox > p {
     padding: 25px;
     color: black;
-    font-family: Frutiger;
-    font-size: 12px;
+    font-family: 'Creepy-Circus';
+    font-size: 25px;
 }
 .bottom-item:hover {
     background: white;

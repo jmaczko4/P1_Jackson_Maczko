@@ -3,9 +3,16 @@
 body {
     margin: 0;
     background: #e8e6e3;
-    font-family: Georgia, serif;
+    font-family: 'HandWri2';
     overflow: hidden;
+    text-decoration: bold;
 }
+
+@font-face {
+    font-family: 'HandWri2';
+    src: url('fonts/HandWri2.ttf');
+}
+
 
 .view {
     width: 100vw;

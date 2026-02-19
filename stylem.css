@@ -28,7 +28,7 @@ aspect-ratio: 1 / 1;
 
 .center-img{
 position: absolute;
-top: 50%;
+top: 39%;
 left: 50%;
 transform: translate(-50%, -50%);
 max-width: 60%;
@@ -46,25 +46,35 @@ text-align: center;
 
 
 .top{
-top: 5%;
-left: 50%;
+top: 50%;
+left: 5%;
 transform:translateX( -50%);
+transform: rotate(22deg);
+padding: 5px;
 }
 
 .bottom{
-bottom: 5%;
-left: 50%;
-transform:translateX(-50%);
+top: 50%;
+right: 16.5%;
+transform: translateX( -50%);
+transform: rotate(-22deg);
+padding: 5px;
 }
 
 .left{
-left: 5%;
-top: 50%;
+left: 16.5%;
+top: 70%;
 transform:translateY(-50%);
+transform: rotate(5deg);
+padding: 5px;
 }
 
 .right{
-right: 5%;
-top: 50%;
+right: 24%;
+top: 70%;
 transform:translateY(-50%);
+transform: rotate(-5deg);
+padding: 5px;
+
+
 }
