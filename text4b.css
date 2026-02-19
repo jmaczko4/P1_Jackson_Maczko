@@ -128,3 +128,10 @@ gap: 10px;
         max-width: 150px;
     }
 }
+.link,
+.link:visited,
+.link:hover,
+.link:active {
+    color: inherit;
+    font-size: inherit;
+}

@@ -1,33 +1,70 @@
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Blocky';
+    src: url('fonts/Blocky.ttf');
 }
 
 body{
-    background:#111;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    min-height:100vh;
+background: black;
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: 'Blocky';
+color: white;
 }
 
-/* poster frame */
-.poster{
-    width:min(90vw,800px);
-    background:black;
+/
+.canvas {
+position: relative;
+width:min( 90vw, 800px);
+aspect-ratio: 1 / 1;
 }
 
-/* svg scales perfectly */
-svg{
-    width:100%;
-    height:auto;
+.center-img{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+max-width: 60%;
+height: auto;
 }
 
-/* poem styling */
+
 .poem{
-    fill:white;
-    font-size:18px;
-    letter-spacing:2px;
-    font-family: "Brush Script MT", cursive;
+position: absolute;
+width: 30%;
+font-size: clamp(14px, 2vw, 24px);
+line-height: 1.4;
+text-align: center;
+}
+
+
+.top{
+top: 5%;
+left: 50%;
+transform:translateX( -50%);
+}
+
+.bottom{
+bottom: 5%;
+left: 50%;
+transform:translateX(-50%);
+}
+
+.left{
+left: 5%;
+top: 50%;
+transform:translateY(-50%);
+}
+
+.right{
+right: 5%;
+top: 50%;
+transform:translateY(-50%);
 }

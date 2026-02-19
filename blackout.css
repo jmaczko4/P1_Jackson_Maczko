@@ -131,3 +131,10 @@ body {
     top: 740px;
     left: 320px;
 }
+.link,
+.link:visited,
+.link:hover,
+.link:active {
+    color: black;
+    font-size: inherit;
+}
