@@ -6,7 +6,7 @@ box-sizing: border-box;
 
 @font-face {
     font-family: 'Blocky';
-    src: url('fonts/Blocky.ttf');
+    src: url('Fonts/Blocky.ttf');
 }
 
 body{
