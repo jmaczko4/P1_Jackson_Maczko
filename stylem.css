@@ -75,6 +75,12 @@ top: 70%;
 transform:translateY(-50%);
 transform: rotate(-5deg);
 padding: 5px;
+}
 
-
+.link,
+.link:visited,
+.link:hover,
+.link:active {
+    color: inherit;
+    font-size: inherit;
 }
