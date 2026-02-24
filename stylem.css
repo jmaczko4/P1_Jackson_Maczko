@@ -83,4 +83,5 @@ padding: 5px;
 .link:active {
     color: inherit;
     font-size: inherit;
+    font-decoration: underline;
 }
