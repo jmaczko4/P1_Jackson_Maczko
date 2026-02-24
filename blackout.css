@@ -6,7 +6,7 @@ box-sizing:border-box;
 
 @font-face{
 font-family:'HandWri2';
-src:url('fonts/HandWri2.ttf');
+src:url('Fonts/HandWri2.ttf');
 }
 
 
@@ -23,12 +23,6 @@ font-family:'HandWri2';
 position:relative;
 width:min(92vw,620px);
 aspect-ratio:620 / 860;  
-background:#f4f0e4;
-
-background-image:
-radial-gradient(rgba(0,0,0,.05) 1px, transparent 1px);
-background-size:3px 3px;
-
 
 transform:rotate(-.4deg);
 overflow:hidden;
